@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+
+{% block body %}<br><br>
+<style>
+        h4{
+          
+                font-family: Segoe UI black;
+
+        }
+</style>
+
+
+<div class="container-sm">
+<h4 style="text-align: center;color:black;font-weight:bold;">Add Grocery</h4>
+    <div class="container shadow-lg p-8 mb-9 mt-3 col-9 ">
+
+    {% if action=='Add' %}
+    <form action="/savegroc" method="POST" enctype="multipart/form-data">
+
+    {% endif %}
+    {% if action=='Edit' %}
+
+    <form action="/updategroc" method="POST" enctype="multipart/form-data">
+    <div class="mb-3">
+            <label for="grocId" class="form-label text-white">Id</label>
+            <input type="number" class="form-control" id="grocId" name="grocId" value="{{groc.grocId}}" readonly>
+    </div>
+
+    {% endif %}
+   
+
+    <div class="mb-3">
+            <label for="grocName" class="form-label text-white"   style="font-weight:bold;">Name:</label>
+            <input type="text" class="form-control" id="grocName"name="grocName" placeholder="--Enter Grocery Name--" value="{{groc.grocName}}" >
+    </div>
+
+    <div class="mb-3">
+            <label for="grocPrice" class="form-label text-white"   style="font-weight:bold;">Price:</label>
+            <input type="number" class="form-control" id="grocPrice" name="grocPrice" placeholder="--Enter Grocery Price--" value="{{groc.grocPrice}}" >
+    </div>
+
+    <div class="mb-3">
+            <label for="grocType" class="form-label text-white"   style="font-weight:bold;">Grocery Type:</label>
+            <input type="text" class="form-control" id="grocType" name="grocType" placeholder="--Enter Grocery Type--" value="{{groc.grocType}}" >
+    </div>
+
+    <div class="mb-3">
+            <label for="grocQuantity" class="form-label text-white"   style="font-weight:bold;">Quantity:</label>
+            <input type="text" class="form-control" id="grocQuantity" name="grocQuantity" placeholder="--Enter Quantity--" value="{{groc.grocQuantity}}" >
+    </div>
+
+    <div class="mb-3">
+            <label for="grocImg" class="form-label text-white"  style="font-weight:bold;">Grocery Image:</label>
+            <input type="file" class="form-control" id="grocImg" name="grocImg">
+    </div>
+    <button type="submit" class="btn btn-success ">Submit</button>
+  </form>
+</div>
+
+
+{% endblock body %}

@@ -1,0 +1,172 @@
+<html>
+<head>
+    <title>Grocery Hub Login</title>
+    <style>
+        body {
+            background-color: #000;
+			background-image: url('/static/h.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+
+        }
+
+  
+
+        .transparent-box {
+            width: 450px;
+            padding: 30px;
+            background: rgba(240, 187, 230, 0.1);
+            box-shadow: 0 14px 30px rgba(228, 158, 158, 0.1);
+            text-align: center;
+            margin-left:480px;
+        }
+
+        img.logo {
+            width: 200px;
+            height: 200px;
+         
+        }
+
+        h2 {
+            font-family:Segoe UI Black;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 50px;
+            margin-top:0px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .input-with-icon {
+            position: relative;
+            width: 80%;
+            margin-bottom: 15px;
+        }
+
+        .input-icon {
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            transform: translateY(-50%);
+            width: 25px;
+            height: 25px;
+            pointer-events: none;
+            opacity: 0.8;
+        }
+
+        .input-with-icon input {
+            width: 100%;
+            padding: 12px;
+            padding-left: 45px;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            background-color: rgba(255, 255, 255, 0.7);
+            box-sizing: border-box;
+        }
+
+        .password-container {
+            position: relative;
+            width: 80%;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        #password {
+            width: 100%;
+            padding: 12px;
+            padding-left: 40px;
+            padding-right: 45px;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            background-color: rgba(255, 255, 255, 0.7);
+            background-image: url('/static/media/key.png');
+            background-repeat: no-repeat;
+            background-position: 10px center;
+            background-size: 25px 25px;
+        }
+
+        .toggle-password {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            user-select: none;
+            z-index: 2;
+        }
+
+        button {
+            width: 60%;
+            padding: 12px;
+            background-color:#e91212;
+            color: rgb(5, 5, 5);
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #afff02;
+        }
+
+        .error {
+            color: rgb(18, 18, 18);
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        a {
+            color: #030303;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin-top: 16px;
+        }
+        a:hover {
+            color: #00ff04;
+        }
+    </style>
+</head>
+<body>
+    <div class="transparent-box">
+        <img src="{{ url_for('static', filename='media/logo1.png') }}" alt="Logo" class="logo">
+        <h2>Login Here</h2>
+        <form action="{{ url_for('log_in') }}" method="post">
+            <div class="input-with-icon">
+                <img src="{{ url_for('static', filename='media/lock.png') }}" class="input-icon" alt="Username Icon">
+                <input type="text" name="username" placeholder="Enter Username" value="{{ request.form.get('username', '') }}" required>
+            </div>
+            <div class="password-container">
+                <input type="password" id="password" name="password" placeholder="Enter Password" value="{{ request.form.get('password', '') }}" required>
+                <span id="togglePassword" class="toggle-password">👁️</span>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}</p>
+        {% endif %}
+
+        <a href="{{ url_for('index') }}">Return To Main🏠</a>
+    </div>
+    <script>
+        const togglePassword = document.querySelector('#togglePassword');
+        const passwordInput = document.querySelector('#password');
+        togglePassword.addEventListener('click', function () {
+            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+            this.textContent = type === 'password' ? '👁️' : '🙈';
+        });
+    </script>
+</body>
+</html>

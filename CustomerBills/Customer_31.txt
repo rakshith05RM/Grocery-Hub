@@ -1,0 +1,16 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Ramesh G 			Order Date: 2025-04-27 12:54:08
+Phone Number  : 8396321457
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Curd                     90.0           2              ₹180.00
+Coking Oil               200.0          2              ₹400.00
+Cream Biscuits           40.0           2              ₹80.00
+Water Bottles            200.0          2              ₹400.00
+Potato                   160.0          5              ₹800.00
+Samosa                   20.0           2              ₹40.00
+----------------------------------------------------------------------
+Grand Total:   ₹1900.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

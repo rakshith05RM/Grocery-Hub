@@ -1,0 +1,29 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Suraj J 			Order Date: 2025-04-30 13:13:36
+Phone Number  : 8379461285
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Milk                     66.0           2              ₹132.00
+Cakes                    200.0          2              ₹400.00
+Bread                    25.0           2              ₹50.00
+Bun                      45.0           2              ₹90.00
+Cookies                  256.0          2              ₹512.00
+Potato Chips             40.0           2              ₹80.00
+Samosa                   20.0           2              ₹40.00
+Kurkure                  25.0           20             ₹500.00
+Energy Drinks            70.0           2              ₹140.00
+Soft Drinks              60.0           2              ₹120.00
+Soda                     25.0           2              ₹50.00
+Apple                    340.0          5              ₹1700.00
+Bannana                  190.0          5              ₹950.00
+Pineapple                160.0          5              ₹800.00
+Papaya                   50.0           5              ₹250.00
+Kiwi                     370.0          5              ₹1850.00
+Carrot                   90.0           5              ₹450.00
+Cauliflower              200.0          1              ₹200.00
+Coking Oil               200.0          8              ₹1600.00
+----------------------------------------------------------------------
+Grand Total:   ₹9914.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

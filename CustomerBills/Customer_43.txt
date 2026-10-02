@@ -1,0 +1,13 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Ganesh Kumar 			Order Date: 2025-05-01 23:18:36
+Phone Number  : 7398745621
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Beetroot                 250.0          2              ₹500.00
+Cauliflower              200.0          4              ₹800.00
+Sweet Corn               260.0          2              ₹520.00
+----------------------------------------------------------------------
+Grand Total:   ₹1820.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

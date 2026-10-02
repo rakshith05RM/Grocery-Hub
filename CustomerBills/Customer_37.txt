@@ -1,0 +1,21 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Manoj V 			Order Date: 2025-04-30 00:41:33
+Phone Number  : 6789321458
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Bread                    25.0           2              ₹50.00
+Capcicum                 80.0           2              ₹160.00
+Avocada                  345.0          2              ₹690.00
+Biscuits                 30.0           2              ₹60.00
+Cheese                   140.0          2              ₹280.00
+Cookies                  256.0          5              ₹1280.00
+Garlic                   80.0           2              ₹160.00
+Capcicum                 80.0           2              ₹160.00
+Orange                   260.0          5              ₹1300.00
+Bannana                  140.0          5              ₹700.00
+Apple                    340.0          6              ₹2040.00
+----------------------------------------------------------------------
+Grand Total:   ₹6880.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

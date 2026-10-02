@@ -1,0 +1,12 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : umesh 			Order Date: 2025-05-20 11:37:37
+Phone Number  : 9856247536
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Grapes                   150.0          3              ₹450.00
+Mango                    300.0          1              ₹300.00
+----------------------------------------------------------------------
+Grand Total:   ₹750.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

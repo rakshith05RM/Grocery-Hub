@@ -1,0 +1,11 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : dhanush tk 			Order Date: 2025-05-20 11:51:31
+Phone Number  : 658954625
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Grapes                   150.0          1              ₹150.00
+----------------------------------------------------------------------
+Grand Total:   ₹150.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

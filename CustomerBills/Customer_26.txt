@@ -1,0 +1,26 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Lohith P 			Order Date: 2025-04-23 23:13:52
+Phone Number  : 7942365891
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Apple                    250.0          2              ₹500.00
+Bannana                  140.0          1              ₹140.00
+Grapes                   230.0          1              ₹230.00
+Mango                    400.0          1              ₹400.00
+Watermelon               80.0           5              ₹400.00
+Kiwi                     370.0          1              ₹370.00
+Ragi Flour               100.0          1              ₹100.00
+Garlic                   80.0           2              ₹160.00
+Flavored Milk            90.0           1              ₹90.00
+Ghee                     140.0          1              ₹140.00
+Cucumber                 80.0           1              ₹80.00
+Coking Oil               200.0          1              ₹200.00
+Sweet Corn               260.0          1              ₹260.00
+Tomato                   180.0          2              ₹360.00
+Cauliflower              200.0          1              ₹200.00
+Soda                     25.0           2              ₹50.00
+----------------------------------------------------------------------
+Grand Total:   ₹3680.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

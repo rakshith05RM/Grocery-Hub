@@ -1,0 +1,12 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Jnanesh H 			Order Date: 2025-05-20 11:52:40
+Phone Number  : 8217045535
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Pineapple                60.0           2              ₹120.00
+butter                   50.0           2              ₹100.00
+----------------------------------------------------------------------
+Grand Total:   ₹220.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

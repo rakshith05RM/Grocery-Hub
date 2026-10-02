@@ -1,0 +1,13 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Naveen  			Order Date: 2025-04-24 12:00:00
+Phone Number  : 6852369745
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Watermelon               80.0           1              ₹80.00
+Bannana                  140.0          2              ₹280.00
+Bun                      45.0           1              ₹45.00
+----------------------------------------------------------------------
+Grand Total:   ₹405.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

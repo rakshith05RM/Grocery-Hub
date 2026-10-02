@@ -1,0 +1,14 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Manoj Kumar v 			Order Date: 2025-05-11 20:02:25
+Phone Number  : 7536984125
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Bun                      25.0           5              ₹125.00
+Pineapple                60.0           1              ₹60.00
+Custard Apple            60.0           1              ₹60.00
+Chikoo                   60.0           3              ₹180.00
+----------------------------------------------------------------------
+Grand Total:   ₹425.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

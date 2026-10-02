@@ -1,0 +1,16 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Abhay M 			Order Date: 2025-04-30 13:52:52
+Phone Number  : 6349785236
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Ragi Flour               100.0          2              ₹200.00
+Cocunut water            60.0           5              ₹300.00
+Bun                      45.0           2              ₹90.00
+Cookies                  256.0          2              ₹512.00
+Basmati Rice             100.0          5              ₹500.00
+Strawberrys              500.0          8              ₹4000.00
+----------------------------------------------------------------------
+Grand Total:   ₹5602.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

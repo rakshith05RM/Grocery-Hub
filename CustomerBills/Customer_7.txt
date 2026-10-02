@@ -1,0 +1,13 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : rakesh 			Order Date: 2025-05-19 16:13:06
+Phone Number  : 9632885545
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Chikoo                   60.0           3              ₹180.00
+Bannana                  150.0          4              ₹600.00
+Bun                      25.0           5              ₹125.00
+----------------------------------------------------------------------
+Grand Total:   ₹905.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

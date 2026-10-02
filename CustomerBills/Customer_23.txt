@@ -1,0 +1,15 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Bhuvan G 			Order Date: 2025-04-23 22:33:15
+Phone Number  : 8523697419
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Pineapple                70.0           1              ₹70.00
+Biscuits                 30.0           2              ₹60.00
+Custard Apple            150.0          2              ₹300.00
+Watermelon               80.0           1              ₹80.00
+Strawberry               400.0          5              ₹2000.00
+----------------------------------------------------------------------
+Grand Total:   ₹2510.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

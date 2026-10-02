@@ -1,0 +1,13 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : pavan 			Order Date: 2025-05-19 16:27:38
+Phone Number  : 8569324587
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Watermelon               80.0           2              ₹160.00
+Orange                   130.0          1              ₹130.00
+Mango                    300.0          4              ₹1200.00
+----------------------------------------------------------------------
+Grand Total:   ₹1490.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

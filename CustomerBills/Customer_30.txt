@@ -1,0 +1,20 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Gagan G 			Order Date: 2025-04-25 19:08:17
+Phone Number  : 7389564125
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Custard Apple            150.0          1              ₹150.00
+Papaya                   50.0           1              ₹50.00
+Kiwi                     370.0          2              ₹740.00
+Chikoo                   200.0          5              ₹1000.00
+Cup Cakes                120.0          5              ₹600.00
+Biscuits                 30.0           25             ₹750.00
+Jam                      25.0           5              ₹125.00
+Sugar                    120.0          2              ₹240.00
+Honey                    160.0          5              ₹800.00
+Cookies                  256.0          2              ₹512.00
+----------------------------------------------------------------------
+Grand Total:   ₹4967.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

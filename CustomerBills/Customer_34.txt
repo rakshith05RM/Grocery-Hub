@@ -1,0 +1,15 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Praveen M 			Order Date: 2025-04-29 23:47:35
+Phone Number  : 8793875648
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Cakes                    200.0          2              ₹400.00
+Bun                      45.0           2              ₹90.00
+Biscuits                 30.0           8              ₹240.00
+Chakli                   70.0           5              ₹350.00
+Soda                     25.0           5              ₹125.00
+----------------------------------------------------------------------
+Grand Total:   ₹1205.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

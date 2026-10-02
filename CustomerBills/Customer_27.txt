@@ -1,0 +1,15 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Vivek C 			Order Date: 2025-04-23 23:16:33
+Phone Number  : 8321496577
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Ice Cream                130.0          8              ₹1040.00
+Soda                     25.0           2              ₹50.00
+Energy Drinks            70.0           2              ₹140.00
+Tea Powder               80.0           25             ₹2000.00
+Soft Drinks              60.0           5              ₹300.00
+----------------------------------------------------------------------
+Grand Total:   ₹3530.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

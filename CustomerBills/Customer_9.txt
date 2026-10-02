@@ -1,0 +1,14 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Kumar T 			Order Date: 2025-05-19 22:12:16
+Phone Number  : 8761245789
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Chikoo                   60.0           2              ₹120.00
+Bun                      25.0           1              ₹25.00
+Watermelon               60.0           1              ₹60.00
+Pineapple                60.0           2              ₹120.00
+----------------------------------------------------------------------
+Grand Total:   ₹325.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

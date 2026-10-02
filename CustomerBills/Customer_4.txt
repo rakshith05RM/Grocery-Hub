@@ -1,0 +1,13 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Kiran J 			Order Date: 2025-05-11 20:04:18
+Phone Number  : 6231547895
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Orange                   130.0          2              ₹260.00
+Grapes                   150.0          2              ₹300.00
+Apple                    200.0          2              ₹400.00
+----------------------------------------------------------------------
+Grand Total:   ₹960.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

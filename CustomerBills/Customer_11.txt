@@ -1,0 +1,13 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Gagan M 			Order Date: 2025-05-20 11:49:05
+Phone Number  : 8523697415
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Orange                   130.0          2              ₹260.00
+Bun                      25.0           4              ₹100.00
+carrot                   55.0           1              ₹55.00
+----------------------------------------------------------------------
+Grand Total:   ₹415.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

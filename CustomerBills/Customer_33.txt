@@ -1,0 +1,13 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Nandan 			Order Date: 2025-04-29 13:59:34
+Phone Number  : 9632587415
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Basmati Rice             100.0          2              ₹200.00
+Green Tea                200.0          1              ₹200.00
+Rice Flour               100.0          1              ₹100.00
+----------------------------------------------------------------------
+Grand Total:   ₹500.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

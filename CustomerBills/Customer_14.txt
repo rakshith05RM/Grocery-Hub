@@ -1,0 +1,13 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Manoj 			Order Date: 2025-05-20 13:15:40
+Phone Number  : 7412589635
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Mango                    300.0          1              ₹300.00
+Apple                    200.0          2              ₹400.00
+Grapes                   150.0          1              ₹150.00
+----------------------------------------------------------------------
+Grand Total:   ₹850.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

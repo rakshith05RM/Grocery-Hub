@@ -1,0 +1,13 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Arjun 			Order Date: 2025-05-19 16:05:26
+Phone Number  : 8621479854
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Pineapple                60.0           2              ₹120.00
+Pomegranate              160.0          2              ₹320.00
+Grapes                   150.0          2              ₹300.00
+----------------------------------------------------------------------
+Grand Total:   ₹740.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****

@@ -1,0 +1,95 @@
+{% extends "layout.html" %}
+
+{% block body %}<br><br><br>
+<style>
+    form{font-weight:bold;
+    }
+    h2{
+        font-family: Segoe UI black;
+    }
+    body{
+        min-height:200vh;
+    }
+    .small-options option {
+        padding-top: 1px;   
+         padding-bottom: 1px; 
+         line-height: 1.2;    
+        font-size: 0.8em;
+    }
+
+</style>
+<div class="container-sm">
+    
+    <h2  style="text-align: center;font-weight:bold;color:black;">New Order</h2>
+    <div class="container shadow-lg p-8 mb-9 mt-3 col-9 ">
+
+    <form action="/order" method="POST">
+
+
+        <div id="product-selections">
+            <div class="form-group d-flex align-items-center">
+                <!--<select class="form-select me-2" name="order_items[]">-->
+                <select class="form-select me-2 small-options" name="order_items[]">
+
+                    <option value="" selected disabled>--Select Product--</option>
+                    {% for groc in groclist %}
+                    <option value="{{ groc.grocId }}"> {{ groc.grocName }} - ₹{{ groc.grocPrice }}</option>
+                    {% endfor %}
+                </select>
+                Quantity:    
+                <input type="number" class="form-control" name="quantity[]" value="" min="1" placeholder="--Qnt--" style="width: 100px;">
+                <button type="button" class="btn btn-danger remove-product ms-2">Remove</button>
+            </div>
+        </div>
+        <button type="button" class="btn btn-secondary mt-2" id="add-more">Add More</button>
+        <div class="mb-3">
+            <label for="customer_name" class="form-label">Customer Name:</label>
+            <input type="text" class="form-control" id="customer_name" name="customer_name" placeholder="--Submit Customer Name--" required>
+        </div>
+        <div class="mb-3">
+            <label for="phone_number" class="form-label">Phone Number:</label>
+            <input type="text" class="form-control" id="phone_number" name="phone_number" placeholder="--Submit Customer Phone Number--"required>
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Place Order</button>
+    </form>
+</div>
+
+<script>
+document.getElementById('add-more').addEventListener('click', function() {
+    var productSelections = document.getElementById('product-selections');
+    var newProduct = productSelections.children[0].cloneNode(true);
+    newProduct.querySelector("select").selectedIndex = 0;
+    newProduct.querySelector("input").value = "";
+    newProduct.querySelector("select").name = "order_items[]";
+    newProduct.querySelector("input").name = "quantity[]";
+    newProduct.querySelector(".remove-product").addEventListener("click", function() {
+        this.parentElement.remove();
+    });
+    productSelections.appendChild(newProduct);
+});
+document.querySelector(".remove-product").addEventListener("click", function() {
+    this.parentElement.remove();
+});
+document.querySelector("form").addEventListener("submit", function(e) {
+    const productSelects = document.querySelectorAll('select[name="order_items[]"]');
+    const quantities = document.querySelectorAll('input[name="quantity[]"]');
+    let errors = [];
+    for (let i = 0; i < productSelects.length; i++) {
+        const productValue = productSelects[i].value;
+        const quantityValue = quantities[i].value;
+
+        if (!productValue) {
+            errors.push(`• Product selection missing in row ${i + 1}`);
+        }
+
+        if (!quantityValue || isNaN(quantityValue) || parseInt(quantityValue) <= 0) {
+            errors.push(`• Invalid quantity in row ${i + 1}`);
+        }
+    }
+    if (errors.length > 0) {
+        alert("Please fix the following errors before placing the order:\n\n" + errors.join("\n"));
+        e.preventDefault();
+    }
+});
+</script>
+{% endblock body %}

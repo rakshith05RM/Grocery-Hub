@@ -1,0 +1,13 @@
+**** Thank You for Your Purchase! ****
+
+Customer Name : Gurunandan H 			Order Date: 2025-05-08 09:35:28
+Phone Number  : 7612354897
+Product                  Price          Quantity       Total Price
+----------------------------------------------------------------------
+Water Bottle             20.0           2              ₹40.00
+Soda                     25.0           2              ₹50.00
+Bread                    25.0           5              ₹125.00
+----------------------------------------------------------------------
+Grand Total:   ₹215.00
+
+**** Thank you for shopping with us, We hope to see you again soon! ****
